@@ -1,0 +1,24 @@
+body{ 
+    background-image: linear-gradient(
+            rgb(171, 9, 9),
+            rgb(41, 1, 1)
+        ),
+        url("lib/img/martianDawn.jpeg");
+    background-size: 115%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: simpsons;
+    src: url(lib/font/simp/Simpsonfont.otf);
+}
+
+.title {
+    display: flex;
+    font-family: simpsons;
+    font-size: xx-large;
+    justify-content: center;
+    margin-top: 10%;
+    color: rgb(181, 0, 0);
+}
