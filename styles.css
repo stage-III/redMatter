@@ -1,12 +1,31 @@
-body{ 
-    background-image: linear-gradient(
-            rgb(171, 9, 9),
-            rgb(41, 1, 1)
-        ),
-        url("lib/img/martianDawn.jpeg");
-    background-size: 115%;
+html, body {
+    padding: 0%;
+    margin: 0%;
+}
+
+iframe {
+    margin-top: 5px;
+}
+
+#wrapper {
+}
+
+#intro {
+    background-image: linear-gradient(rgb(171, 9, 9), rgb(41, 1, 1));
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discog {
+    min-height: 100vh;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @font-face {
@@ -19,6 +38,7 @@ body{
     font-family: simpsons;
     font-size: xx-large;
     justify-content: center;
-    margin-top: 10%;
+    vertical-align: middle;
+    margin-top: 5%;
     color: rgb(181, 0, 0);
 }
