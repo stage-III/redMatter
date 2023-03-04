@@ -7,9 +7,6 @@ iframe {
     margin-top: 5px;
 }
 
-#wrapper {
-}
-
 #intro {
     background-image: linear-gradient(rgb(171, 9, 9), rgb(41, 1, 1));
     background-repeat: no-repeat;
@@ -25,7 +22,6 @@ iframe {
     margin-top: 15%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 @font-face {
@@ -41,4 +37,15 @@ iframe {
     vertical-align: middle;
     margin-top: 5%;
     color: rgb(181, 0, 0);
+}
+
+@media only screen and (min-width: 1000px){
+    #discog {
+        justify-content: center;
+    }
+    #bandcamp {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
 }
