@@ -1,51 +1,70 @@
-html, body {
-    padding: 0%;
-    margin: 0%;
+@font-face {
+  font-family: simpsons;
+  src: url(lib/font/simp/Simpsonfont.otf);
+}
+
+html,
+body {
+  padding: 0%;
+  margin: 0%;
 }
 
 iframe {
-    margin-top: 5px;
-}
-
-#intro {
-    background-image: linear-gradient(rgb(171, 9, 9), rgb(41, 1, 1));
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#discog {
-    min-height: 100vh;
-    margin-top: 15%;
-    display: flex;
-    flex-direction: column;
-}
-
-@font-face {
-    font-family: simpsons;
-    src: url(lib/font/simp/Simpsonfont.otf);
+  margin-top: 5px;
 }
 
 .title {
-    display: flex;
-    font-family: simpsons;
-    font-size: xx-large;
-    justify-content: center;
-    vertical-align: middle;
-    margin-top: 5%;
-    color: rgb(181, 0, 0);
+  display: flex;
+  font-family: simpsons;
+  font-size: 80px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  margin-top: 5%;
+  color: rgb(118, 1, 1);
 }
 
-@media only screen and (min-width: 1000px){
-    #discog {
-        justify-content: center;
+.title and #music{
+    font-size: 50px;
+}
+
+#intro {
+  background-image: linear-gradient(rgb(210, 56, 0), rgb(167, 3, 3));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#discog {
+    background-image: linear-gradient(rgb(167, 3, 3), rgb(109, 1, 1));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* #bandcamp {
+    
+}
+
+#social{
+    min-height: 100vh;
+} */
+
+@media only screen and (min-width: 1000px) {
+
+    .title{
+        font-size: 120px;
     }
-    #bandcamp {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
+  #discog {
+    justify-content: center;
+  }
+
+  #bandcamp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
