@@ -36,9 +36,15 @@ iframe {
   display: flex;
   max-width: 100%;
   height: auto;
-  min-height: 20vh;
   max-height: 100%;
   justify-self: center;
+}
+
+.logoDiv {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fellas {
