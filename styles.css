@@ -82,12 +82,18 @@ iframe {
   align-items: center;
 }
 
-#wrapper{
-  background-image: linear-gradient(rgb(163, 44, 0),
-  rgb(133, 1, 1),
-  rgb(82, 0, 0),
-  rgb(1,1,1)
+#wrapper {
+  background-image: linear-gradient(
+    rgb(163, 44, 0),
+    rgb(133, 1, 1),
+    rgb(82, 0, 0),
+    rgb(1, 1, 1)
   );
+}
+
+#nextGig {
+  text-align: center;
+  font-family: basic;
 }
 
 #externalLinks {
@@ -96,9 +102,8 @@ iframe {
   text-align: center;
   justify-content: space-around;
   align-items: center;
-
   min-height: 45vh;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 #headline {
@@ -118,7 +123,7 @@ iframe {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 35vh;
+  min-height: fit-content;
   height: fit-content;
 }
 
@@ -132,7 +137,7 @@ iframe {
   display: none;
 }
 
-#bio{
+#bio {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 100%;
@@ -156,12 +161,18 @@ iframe {
   .bioText {
     margin-bottom: 5%;
   }
-  
+
   .bioText h1 {
     font-size: xx-large;
   }
 
   .bioText p {
+    font-size: x-large;
+  }
+
+  #nextGig {
+    text-align: center;
+    font-family: basic;
     font-size: x-large;
   }
 
@@ -177,7 +188,7 @@ iframe {
   #iframeDiv {
     display: none;
   }
-  
+
   #iframeDivLarger {
     display: flex;
     flex-direction: column;
@@ -197,7 +208,7 @@ iframe {
   #headline {
     max-width: 900px;
   }
-  
+
   #bio {
     max-width: 900px;
   }
