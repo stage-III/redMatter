@@ -14,7 +14,7 @@ body {
   margin: 0%;
 }
 
-a {
+.links {
   min-width: 45%;
   font-family: basic;
   background-color: #000000b2;
@@ -24,6 +24,20 @@ a {
   font-size: larger;
   border-radius: 20px;
   box-shadow: 0px 8px 11px 3px #000000b2;
+}
+
+.tix {
+  min-width: 45%;
+  font-family: basic;
+  border: 4px;
+  border-style: solid;
+  border-color: black;
+  background-color: #D80600;
+  color: black;
+  padding: 2%;
+  text-decoration: none;
+  font-size: xx-large;
+  border-radius: 20px;
 }
 
 iframe {
@@ -149,8 +163,12 @@ iframe {
 }
 
 @media screen and (min-width: 550px) {
-  a {
+  .links {
     font-size: xx-large;
+    margin-bottom: 5%;
+  }
+  
+  .tix {
     margin-bottom: 5%;
   }
 
