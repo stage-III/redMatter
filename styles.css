@@ -17,18 +17,6 @@ body {
 .links {
   min-width: 45%;
   font-family: basic;
-  background-color: #000000b2;
-  color: #c71c05;
-  padding: 2%;
-  text-decoration: none;
-  font-size: larger;
-  border-radius: 20px;
-  box-shadow: 0px 8px 11px 3px #000000b2;
-}
-
-.tix {
-  min-width: 45%;
-  font-family: basic;
   border: 4px;
   border-style: solid;
   border-color: black;
@@ -36,8 +24,9 @@ body {
   color: black;
   padding: 2%;
   text-decoration: none;
-  font-size: xx-large;
+  font-size: larger;
   border-radius: 20px;
+  box-shadow: 0px 8px 11px 3px #000000b2;
 }
 
 iframe {
@@ -106,8 +95,16 @@ iframe {
 }
 
 #nextGig {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
   text-align: center;
   font-family: basic;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 100%; */
+  /* margin-bottom: 5%; */
 }
 
 #externalLinks {
@@ -167,10 +164,6 @@ iframe {
     font-size: xx-large;
     margin-bottom: 5%;
   }
-  
-  .tix {
-    margin-bottom: 5%;
-  }
 
   iframe {
     max-width: 700px;
@@ -221,6 +214,10 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .logoDiv {
+    max-width: 900px;
   }
 
   #headline {
