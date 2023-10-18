@@ -103,8 +103,6 @@ iframe {
   text-align: center;
   justify-content: space-around;
   align-items: center;
-  /* width: 100%; */
-  /* margin-bottom: 5%; */
 }
 
 #externalLinks {
@@ -114,18 +112,18 @@ iframe {
   justify-content: space-around;
   align-items: center;
   min-height: 45vh;
-  margin-bottom: 7%;
+  width: 100%;
 }
 
 #headline {
   min-height: 100vh;
   height: fit-content;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-auto-rows: auto;
-  justify-content: center;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   overflow: visible;
+  width: 100%;
 }
 
 #bandcamp {
